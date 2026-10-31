@@ -1,0 +1,9 @@
+node_modules/
+server/data/state.json
+server/data/feature.json
+.DS_Store
+*.log
+.env
+.env.*
+.idea/
+.vscode/

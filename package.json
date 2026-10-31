@@ -1,0 +1,16 @@
+{
+  "name": "opd-queue-live",
+  "version": "1.0.0",
+  "description": "Shared live OPD queue demo — multi-device outpatient token system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["opd", "hospital", "queue", "token", "healthcare"],
+  "license": "MIT",
+  "dependencies": {}
+}
