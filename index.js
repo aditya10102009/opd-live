@@ -9,7 +9,7 @@ const { URL } = require('url');
 const store = require('./store');
 
 const PORT = process.env.PORT || 3847;
-const PUBLIC = path.join(__dirname, '..', 'public');
+const PUBLIC = path.join(__dirname);
 
 function send(res, status, body, extraHeaders) {
   const json = typeof body === 'string' ? body : JSON.stringify(body);
